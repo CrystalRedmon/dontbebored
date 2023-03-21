@@ -11,7 +11,7 @@ let ideasRouter = require('../server/routes/ideas.router');
 
 
 // bodyParser decodes the http request from the client
-let bodyParser = require('body-parser');
+let bodyParser = require('body-parser'); 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
