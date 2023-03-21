@@ -2,7 +2,7 @@
 const express = require('express');
 // Create an instance of express by calling the function returned above - gives us an object
 const app = express();
-const port = 3000;
+const port = 3000; 
 
 
 let quotesRouter = require('../server/routes/quotes.router');
