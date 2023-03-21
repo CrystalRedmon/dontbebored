@@ -28,7 +28,7 @@ function RandomActivity() {
         <div className='container'>
 
             <div className="random-container">
-                <h2>blue Random Activity</h2>
+                <h2>red Random Activity</h2>
                 <button onClick={handleOnClick}>
                   Select Random Activity
                 </button>

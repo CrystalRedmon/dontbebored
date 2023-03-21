@@ -2,7 +2,7 @@
 const express = require('express');
 // Create an instance of express by calling the function returned above - gives us an object
 const app = express();
-const port = 3000; 
+const port = process.env.port || 3000; 
 const path = require('path');
 
 
@@ -31,4 +31,6 @@ app.get('/*', (req, res) => {
 app.listen(port, () => {
   console.log('listening on port', port);
 });
+
+
 
