@@ -13,7 +13,7 @@ function RandomActivity() {
                 console.log('this is the response: ', response.data);
                 setRandomActivity(response.data)
                 let result = document.querySelector('.random-result')
-                console.log('this is the result', result)
+                // console.log('this is the result', result)
             })
             .catch(error => {
                 console.log('Get did not work. Error: ', error);
@@ -28,9 +28,9 @@ function RandomActivity() {
         <div className='container'>
 
             <div className="random-container">
-                <h2>Random Activity</h2>
+                <h2>blue Random Activity</h2>
                 <button onClick={handleOnClick}>
-                    Select Random Activity
+                  Select Random Activity
                 </button>
 
                 <div >

@@ -8,6 +8,7 @@ router.get('/', (req, res) => {
     axios.get('http://www.boredapi.com/api/activity/')
         .then((response) => {
             res.send(response.data.activity);
+            
         }).catch(err => {
             res.sendStatus(500);
             console.log('GET ideas failed: ', err);
